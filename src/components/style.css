@@ -279,172 +279,79 @@
   }
 }
 
-@media screen and (max-width: 390px) {
-  .footerstyle {
-    max-width: 95%;
+@media (max-width: 1024px) {
+  .gallerycontainer {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 20px;
   }
-}
-
-@media screen and (min-width: 391px) and (max-width: 767px) {
-  body {
-    font-size: 15px;
-    position: absolute;
-    overflow-x: hidden;
-  }
-
   main {
-    padding: 10px 20px 0 20px;
-    margin: 0 auto;
+    padding: 10px 20px;
   }
-
   .first-section {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    /* display: block;
-    text-align: center;
-    position: relative; */
+    gap: 20px;
   }
-
   .profile-section {
     width: 100%;
-  }
-
-  .left-section {
-    width: 100%;
-
-    .profile-img {
-      display: block;
-      margin: auto;
-      padding: 0;
-    }
-  }
-
-  .profile-text {
-    width: 100%;
-    margin: auto;
-    position: relative;
-    top: 20px;
-    .profile-parag {
-      width: 100%;
-      font-size: 16px;
-      padding: 0 5px;
-      margin-bottom: 12px;
-    }
-    .edit-icon {
-      margin: 5px auto;
-      font-size: 16px;
-    }
-  }
-
-  .post {
-    position: relative;
-    top: 50px;
-    width: 100%;
-    margin: auto;
-  }
-
-  .post-hr {
-    position: relative;
-    top: 60px;
-  }
-
-  .gallerycontainer {
-    gap: 25px;
-    position: relative;
-    top: 70px;
-  }
-
-  .footerstyle {
-    position: relative;
-    top: 120px;
-  }
-
-  .line {
-    position: relative;
-    top: 70px;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  body {
-    font-size: 12px;
-    position: absolute;
-    overflow-x: hidden;
-  }
-
-  main {
-    padding: 10px 20px 0 20px;
-    margin: 0 auto;
-  }
-
-  .first-section {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    /* display: block;
-    text-align: center;
-    position: relative; */
   }
-
-  .profile-section {
-    width: 100%;
-  }
-
-  .left-section {
-    width: 100%;
-
-    .profile-img {
-      display: block;
-      margin: auto;
-      padding: 0;
-    }
-  }
-
   .profile-text {
     width: 100%;
-    margin: auto;
-    position: relative;
-    top: 20px;
-    .profile-parag {
-      width: 100%;
-      font-size: 16px;
-      padding: 0 5px;
-      margin-bottom: 10px;
-    }
-    .edit-icon {
-      margin: 5px auto;
-      font-size: 16px;
-    }
-  }
-
-  .post {
-    position: relative;
-    top: 50px;
-    width: 100%;
-    margin: auto;
-  }
-
-  .post-hr {
-    position: relative;
-    top: 60px;
-  }
-
-  .gallerycontainer {
-    gap: 25px;
-    position: relative;
-    top: 70px;
-  }
-
-  .footerstyle {
-    position: relative;
-    top: 120px;
-  }
-
-  .line {
-    position: relative;
-    top: 70px;
+    max-width: 420px;
   }
 }
+
+@media (max-width: 767px) {
+  .gallerycontainer {
+    grid-template-columns: 1fr;
+    padding: 10px 5px;
+  }
+  main {
+    padding: 10px 5px;
+  }
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+  .profile-text {
+    width: 100%;
+    font-size: 1em;
+  }
+  .heading-text {
+    font-size: 1.2em;
+    height: auto;
+  }
+  .profile-parag {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallerycontainer {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 5px;
+  }
+  .gallery-item {
+    height: auto;
+  }
+  .gallery-image {
+    height: 180px;
+  }
+  .profile-img {
+    width: 80px;
+    height: 80px;
+  }
+  .profile-text {
+    font-size: 0.9em;
+  }
+  .post {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1em;
+  }
+}
+
+/* ...existing code... */
