@@ -2,6 +2,13 @@
 
 ## Hosted link - https://react-spots-app.vercel.app/
 
+## Screenshots
+
+<img src="/screenshots/Overview.png" alt="page overview" />
+<img src="/screenshots/Overview2.png" alt="page overview" />
+
+---
+
 # Getting Started with Spots-App
 
 This guide will help you set up and run the Spots-App project from scratch.
@@ -10,6 +17,8 @@ This guide will help you set up and run the Spots-App project from scratch.
 
 - [Node.js](https://nodejs.org/) (v16 or higher recommended)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
+
+---
 
 ## What is Spots-App?
 
@@ -111,8 +120,3 @@ If you see version numbers, you're good to go. If not, download and install from
 Feel free to fork the repo and submit pull requests!
 
 ---
-
-## Screenshots
-
-<img src="/screenshots/Overview.png" alt="page overview" />
-<img src="/screenshots/Overview2.png" alt="page overview" />
