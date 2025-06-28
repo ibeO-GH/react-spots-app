@@ -117,3 +117,6 @@ Feel free to fork the repo and submit pull requests!
 ![Spots-App Screenshot](./assets/images/Overview.png)
 
 ![Spots-App Screenshot](./assets/images/Overview2.png)
+
+<img src="./assets/images/Overview.png" alt="page overview" />
+<img src="./assets/images/Overview2.png" alt="page overview" />
